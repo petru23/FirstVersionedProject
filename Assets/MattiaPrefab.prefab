@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 33813884592147362}
   - component: {fileID: 135817197075168450}
   - component: {fileID: 23612434162457912}
+  - component: {fileID: 114696655625194328}
   m_Layer: 0
   m_Name: MattiaPrefab
   m_TagString: Untagged
@@ -72,7 +73,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1681783558373540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.647831, y: -4.290452, z: -2.5542667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4762429853230522}
@@ -232,6 +233,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114696655625194328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681783558373540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95ad5d1c02e60748bc993092c4e4ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135817197075168450
 SphereCollider:
   m_ObjectHideFlags: 1
